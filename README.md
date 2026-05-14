@@ -78,5 +78,5 @@ financial-research/
 ## Contact
 
 **Kunal Arora**
-MBA in Business Analytics, Delhi School of Economics, University of Delhi
+MBA in Business Analytics, Delhi School of Economics, University of Delhi · FRM Part I 
 [LinkedIn](https://www.linkedin.com/in/kunalar/) · workkunal1@gmail.com
