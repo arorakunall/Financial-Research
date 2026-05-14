@@ -58,7 +58,7 @@ financial-research/
     └── outputs/
         ├── figures/           ← price/return/volatility plots
         ├── tables/            ← ADF tests, VAR output, Granger, FEVD, IRF (PDFs)
-        └── TimeSeriesProject.pdf
+        └── Oil_Spillovers.pdf
 ```
 
 ---
