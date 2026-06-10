@@ -51,7 +51,7 @@ Equity and macro series are pulled programmatically via `quantmod`; the iron-ore
 03_mining-asymmetry-nardl/
 ├── README.md
 ├── code/
-│   └── mining_asymmetry_final_8.R      ← full pipeline (~1,100 lines, self-installing deps)
+│   └── mining_asymmetry.R      ← full pipeline (~1,100 lines, self-installing deps)
 ├── data/
 │   └── Iron_ore_fines_62__Fe_CFR_Futures_Historical_Data.csv   ← iron ore 62% Fe CFR China (Investing.com), 2011–2026
 └── outputs/
@@ -74,7 +74,7 @@ The script is self-contained — it checks for and installs any missing packages
 
 ```r
 # from the project root, in R / RStudio
-source("code/mining_asymmetry_final_8.R")
+source("code/mining_asymmetry.R")
 ```
 
 **Dependencies** (auto-installed): `quantmod`, `xts`, `zoo`, `tseries`, `FinTS`, `dynlm`, `car`, `lmtest`, `sandwich`, `MSwM`, `PerformanceAnalytics`, `dynamac`, `strucchange`, `ggplot2`, `dplyr`, `tidyr`, `scales`, `patchwork`, `lubridate`.
